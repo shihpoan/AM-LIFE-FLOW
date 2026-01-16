@@ -69,7 +69,7 @@ export default function Home() {
         {/* 標題 */}
         <div className="text-center">
           <h1 className="text-3xl font-bold text-slate-900">AM Life Flow</h1>
-          <p className="mt-2 text-slate-600">晨間習慣追蹤</p>
+          <p className="mt-2 text-slate-600">習慣追蹤</p>
         </div>
 
         {/* 進度儀表板 */}
