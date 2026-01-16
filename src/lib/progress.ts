@@ -27,7 +27,7 @@ export const getProgressStatus = (
   if (isLagging) {
     return {
       status: "lagging" as const,
-      message: `進度落後！目前 ${currentCount}/${target}，陳老師提醒您：簡單的事重複做，你就是專家。`,
+      message: `進度落後！目前 ${currentCount}/${target}，複雜的事簡單做，簡單的事重複做。`,
       color: "text-orange-600 bg-orange-50",
     };
   } else {

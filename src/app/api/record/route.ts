@@ -52,6 +52,7 @@ export async function POST(req: Request) {
                 parsedData.data.date || new Date().toISOString().split("T")[0],
             },
           },
+          類型: { select: { name: parsedData.data.category } },
         },
       });
       // console.log("Finance record created:", result);
