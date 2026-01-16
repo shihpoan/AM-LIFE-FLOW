@@ -84,7 +84,7 @@ export default function Home() {
           <div className="mb-4">
             <div className="flex justify-between items-center mb-2">
               <span className="text-sm font-medium text-slate-700">
-                本週進度
+                本週推薦進度
               </span>
               <span className="text-sm font-bold text-slate-900">
                 {currentCount}/{target}
@@ -157,7 +157,7 @@ export default function Home() {
 
         {/* 小提示 */}
         <div className="text-center text-sm text-slate-500">
-          <p>每週目標：完成 {target} 次晨間習慣</p>
+          <p>每週目標：完成 {target} 次推薦習慣</p>
         </div>
       </main>
     </div>
